@@ -48,12 +48,11 @@ def run_full_pipeline(run_value):
     from sklearn.metrics import silhouette_score
 
     # %%
-    FORCE_DEVICE = "cuda"   # "cpu" ή "cuda" (ή "cuda:0", "cuda:1", κλπ)
+    FORCE_DEVICE = "cuda"   
 
     if FORCE_DEVICE.startswith("cpu"):
-        os.environ["CUDA_VISIBLE_DEVICES"] = ""    # Κρύβει όλες τις GPU
+        os.environ["CUDA_VISIBLE_DEVICES"] = ""    
     else:
-        # Δείξε συγκεκριμένες GPU π.χ. μόνο την 0 (ή "0,1" για 2)
         os.environ["CUDA_VISIBLE_DEVICES"] = "0,1"
 
 
