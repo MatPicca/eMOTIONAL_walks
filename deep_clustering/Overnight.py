@@ -1,3 +1,10 @@
+'''
+This script runs the full data processing and deep clustering pipeline for a given list of participants.
+it suppresses output during execution for cleaner logs.
+the results are saved and can be analyzed later.
+'''
+
+
 import os
 import sys
 
@@ -2170,13 +2177,14 @@ def run_full_pipeline(run_value):
 
     print(f"\n✔ FINISHED RUN: {run_value}\n")
 
+
+# change here the list to run different subjects. 
 run_values = ['105', '473', '489', '136', '389', '139', 
               '303', '305', '271', '114', '384', 
               '238', '159', '172', '117', '123', '457', 
               '164', '313', '176', '151', '161', '188', '165', '217', 
               '255', '416', '154']
-# my top done is 227 
-# prolems 271, 303, 313, 231, 255, 238, 217
+# note: problems 271, 303, 313, 231, 255, 238, 217
 import traceback
 
 failed_runs = []
