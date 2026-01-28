@@ -29,7 +29,10 @@ High level pipeline:
 
 4. **Models**
    - Comparison across temporal supports (high-frequency, aggregated, rolling)
-   - Final analysis uses **spatial episodes** (continuous stay within one grid cell), stress is time-weighted within the episode, predictors are within-person standardized, regression uses duration-based weights. 
+   - Final analysis uses **spatial episodes** (continuous stay within one grid cell), stress is time-weighted within the episode, predictors are within-person standardized, regression uses duration-based weights.
+
+5. **(Bonus) Hypotesis Testing**
+   - Reproduce selected hypothesis tests from the Lisbon case study that inspired this project, using the Copenhagen pipeline/data. 
 
 ## Data availability (important)
 
