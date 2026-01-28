@@ -108,7 +108,7 @@ Statistical models and analysis notebooks.
 The datasets required to run the notebooks are too large for GitHub.
 
 Download the public derived data here:
-- Google Drive (single zip): **[<data download link>](https://drive.google.com/drive/folders/1-NnK16PBg9o0pt-nOEmn8wVGzZPfQF-D?usp=share_link)**
+- Google Drive (single zip): [<data download link>](https://drive.google.com/drive/folders/1-NnK16PBg9o0pt-nOEmn8wVGzZPfQF-D?usp=share_link)
 
 After downloading:
 1. Unzip the file
