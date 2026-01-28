@@ -100,10 +100,22 @@ Statistical models and analysis notebooks.
 - `model_multiple.ipynb`, `model_muliple_best_data.ipynb`  
   Main comparative runs and final model selection.
 
-## How to run (practical)
+## Data download (public derived data)
 
-Because data is not shipped, you will need to recreate expected inputs.
-Some data ara available in `data/`
+The datasets required to run the notebooks are too large for GitHub.
+
+Download the public derived data here:
+- Google Drive (single zip): **[<data download link>](https://drive.google.com/drive/folders/1-NnK16PBg9o0pt-nOEmn8wVGzZPfQF-D?usp=share_link)**
+
+After downloading:
+1. Unzip the file
+2. Place the extracted folder at the repository root as `./data/`  
+   (keep the internal folder structure unchanged)
+
+Expected result:
+- `./data/...` contains the CSV/GeoJSON/TIF files used by the notebooks.
+
+## How to run (practical)
 
 Suggested order:
 
