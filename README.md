@@ -1,6 +1,6 @@
 # eMOTIONAL walks, Spatial prediction of pedestrian stress in Copenhagen
 
-Codebase for my MSc thesis at DTU Management Engineering:
+Codebase for my MSc thesis in Business Analytics at DTU:
 
 **“Spatial Prediction of Pedestrian Stress Levels in Copenhagen Using Environmental Features and Machine Learning”**
 
